@@ -1,0 +1,8 @@
+// fragment component call to this <></>
+//composition meaning of the better organizing our components
+// key need in react for having a having
+// dom is for re-render something document object model
+// useState like a snapshot of the camera
+- useState always has a starting value
+- that has returns array
+// using useRef is to hold a mutable data without re-rendering

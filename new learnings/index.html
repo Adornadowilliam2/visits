@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>Hello world</title>
+    <style>
+      input:invalid {
+        background-color: red;
+      }
+      input:valid {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body style="display: block; align-content: center">
+    <h1>Hello world</h1>
+    <button style="background-color: hotpink" onclick="alert('Hello world')">
+      Click Me!
+    </button>
+    <form onsubmit="onSubmit(event)">
+      <input type="text" id="name" required />
+      <input type="number" id="age" required />
+      <button type="submit">Submit</button>
+    </form>
+    <div style="border: 1px solid yellow; background-color: yellowgreen">
+      Hello world
+    </div>
+    <div style="border: 1px solid navy; background-color: darkslateblue">
+      My name is MFI
+    </div>
+    <div style="border: 1px solid red; background-color: brown">
+      MFI Polytechnic
+    </div>
+  </body>
+</html>
+
+<script>
+  const onSubmit = (e) => {
+    e.preventDefault();
+    const body = {
+      name: document.getElementById("name").value,
+      age: document.getElementById("age").value,
+    };
+    alert(JSON.stringify(body));
+  };
+</script>

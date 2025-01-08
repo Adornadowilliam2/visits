@@ -1,5 +1,4 @@
 const total90 =
-  41 /** Oct 8, 2024*/ +
   27 /** Oct 9, 2024*/ +
   31 /** Oct 10, 2024*/ +
   23 /** Oct 11, 2024*/ +
@@ -89,12 +88,11 @@ const total90 =
   71 /**Jan 2 */ +
   120 /**Jan 3 */ +
   90 /**Jan 4 */ +
-  48; /**Jan 5 */
+  78 /**Jan 5 */ +
+  88;
 console.log("total 90 days", total90);
-// total 78 jan 5
 
 const total28 =
-  111 /*Dec 9 */ +
   134 /*Dec 10 */ +
   97 /*Dec 11 */ +
   102 /*Dec 12 */ +
@@ -121,32 +119,6 @@ const total28 =
   71 /**Jan 2 */ +
   120 /**Jan 3 */ +
   90 /**Jan 4 */ +
-  48; /**Jan 5 */
-console.log("total 90 days", total28);
-
-const total14 =
-  60 /*Dec 23 */ +
-  48 /*Dec 24 */ +
-  43 /**Dec 25 */ +
-  59 /**Dec 26 */ +
-  50 /**Dec 27 */ +
-  50 /**Dec 28 */ +
-  53 /**Dec 29 */ +
-  50 /**Dec 30 */ +
-  31 /**Dec 31 */ +
-  62 /**Jan 1 */ +
-  71 /**Jan 2 */ +
-  120 /**Jan 3 */ +
-  90 /**Jan 4 */ +
-  48; /**Jan 5 */
-console.log("total 90 days", total14);
-
-const total7 =
-  50 /**Dec 30 */ +
-  31 /**Dec 31 */ +
-  62 /**Jan 1 */ +
-  71 /**Jan 2 */ +
-  120 /**Jan 3 */ +
-  90 /**Jan 4 */ +
-  48; /**Jan 5 */
-console.log("total 90 days", total7);
+  78 +
+  88; /**Jan 5 */
+console.log("total 28 days", total28);
