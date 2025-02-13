@@ -35,6 +35,7 @@ const total28 =
 /**Feb 5 = 170 into 189 */
 /**Feb 6 = 173 into 206 */
 /**Feb 9 = still same  */
+/**Feb 10 = 129 into 146 */
 console.log("total 28 days", total28);
 
 
