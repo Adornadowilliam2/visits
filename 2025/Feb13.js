@@ -1,5 +1,5 @@
 const total28 =
-    172 /** Jan 15 */ +
+
     171 /**Jan 16 */ +
     16 /**Jan 17 */ +
     115 /**Jan 18 */ +
@@ -40,7 +40,6 @@ console.log("total 28 days", total28);
 
 
 const total90 =
-    34 /*Nov 14 */ +
     53 /*Nov 15 */ +
     11 /*Nov 16 */ +
     14 /*Nov 17 */ +
