@@ -1,5 +1,4 @@
 const total28 =
-
     171 /**Jan 16 */ +
     16 /**Jan 17 */ +
     115 /**Jan 18 */ +
@@ -27,7 +26,9 @@ const total28 =
     122 + /**Feb 9 */
     146 + /**Feb 10 */
     218 + /**Feb 11 */
-    145; /**feb 12 */
+    152 + /**Feb 12 */
+    154; /**feb 13 */
+
 
 /**Last record 143 Jan 21 2025 */
 /**Feb 2 = 86 into 97 */
@@ -38,6 +39,7 @@ const total28 =
 /**Feb 9 = still same  */
 /**Feb 10 = 129 into 146 */
 /**fEB 12 = 145 into 152 */
+/**Feb 13 = 154 still same */
 console.log("total 28 days", total28);
 
 
@@ -134,7 +136,8 @@ const total90 =
     218 + /**Feb 11 */
     145; /**feb 12 */
 
+
 /**Last record 143 Jan 21 2025 */
-/** Feb 13 = 200 into 218 */
+
 
 console.log("total 90 days", total90);
